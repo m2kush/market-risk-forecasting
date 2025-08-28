@@ -35,7 +35,7 @@ time-series-forecasting/
 ## 📈 Results
 
 ### 🔹 ARIMA Forecast
-![ARIMA Results](results/arima_plot.png)
+![ARIMA Results](https://github.com/m2kush/market-risk-forecasting/blob/main/results/Screenshot%20from%202025-08-28%2009-29-31.png)
 
 
 
