@@ -25,7 +25,9 @@ Clone this repo and install dependencies:
 git clone https://github.com/YOUR_USERNAME/time-series-forecasting.git
 cd time-series-forecasting
 pip install -r requirements.txt
-'''
+```
+
+
 ## Project structure 
 time-series-forecasting/
 │── data/                # (optional) dataset or sample CSV
