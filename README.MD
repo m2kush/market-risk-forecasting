@@ -57,11 +57,15 @@ pip install -r requirements.txt
 ```🚀 Usage
 
 Run Jupyter Notebook:
+
 ```bash
 
 jupyter notebook notebooks/forecasting.ipynb
 ```
+
+
 Or use scripts:
+
 ```bash
 
 python src/arima_model.py
