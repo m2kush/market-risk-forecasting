@@ -45,3 +45,16 @@ jupyter notebook notebooks/forecasting.ipynb
 
 Run the Jupyter notebook for training and evaluation:
 
+
+## 📈 Results
+
+Example visualization of predictions vs actual values:
+
+## 🔮 Future Work
+
+Hyperparameter tuning for ARIMA and LSTM
+
+Add models like Prophet / Transformers
+
+Deploy as a web app for real-time predictions
+
