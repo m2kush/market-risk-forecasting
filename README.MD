@@ -40,7 +40,7 @@ time-series-forecasting/
 
 
 ### 🔹 Combined Comparison
-![Forecast Comparison](rhttps://github.com/m2kush/market-risk-forecasting/blob/main/results/Screenshot%20from%202025-08-28%2009-29-59.png)
+![Forecast Comparison](https://github.com/m2kush/market-risk-forecasting/blob/main/results/Screenshot%20from%202025-08-28%2009-29-59.png)
 
 ---
 
@@ -50,6 +50,26 @@ Clone this repository:
 ```bash
 git clone https://github.com/m2kush/time-series-forecasting.git
 cd time-series-forecasting
+```
+## Install dependencies:
+```bash
+pip install -r requirements.txt
+```🚀 Usage
+
+Run Jupyter Notebook:
+```bash
+
+jupyter notebook notebooks/forecasting.ipynb
+```
+Or use scripts:
+```bash
+
+python src/arima_model.py
+python src/lstm_model.py
+
+```
+
+
 
 ## 🙋 Author
 KUSH MISHRA  
