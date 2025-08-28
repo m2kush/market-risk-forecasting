@@ -1,63 +1,56 @@
-# 📈 Time Series Forecasting with ARIMA and LSTM
+# 📈 Time Series Forecasting – NIFTY 50 (ARIMA + LSTM)
 
-## 🔍 Overview
-This project explores **time series forecasting** using two approaches:
-- **ARIMA** (AutoRegressive Integrated Moving Average) – a classical statistical method.  
-- **LSTM** (Long Short-Term Memory) – a deep learning approach with PyTorch.  
-
-The dataset used is stock market index data (`^NSEI`), but the framework can be applied to any univariate time series.
+This project demonstrates **time series forecasting** on the NIFTY 50 index using both **ARIMA** (classical statistical model) and **LSTM** (deep learning model).  
+It compares traditional and modern approaches to stock market prediction.
 
 ---
 
-## 🚀 Features
-- Preprocessing and train-test split  
-- ARIMA model training and forecasting  
-- LSTM model built in PyTorch  
-- Visualization of **Actual vs Predicted** values  
-- Comparison of statistical vs deep learning methods  
-
----
-
-## 🛠 Installation
-Clone this repo and install dependencies:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/time-series-forecasting.git
-cd time-series-forecasting
-pip install -r requirements.txt
-```
-
-
-## Project structure 
+## 📊 Project Structure
 time-series-forecasting/
-│── data/                # (optional) dataset or sample CSV
-│── notebooks/           # Jupyter notebooks
-│── src/                 # Python scripts (models, training, utils)
-│── results/             # Plots, metrics
-│── requirements.txt     # Dependencies
-│── README.md            # Documentation
+│── data/ # Dataset (NIFTY 50 CSV file)
+│── notebooks/ # Jupyter notebooks for experiments
+│── src/ # Source code (ARIMA, LSTM, utilities)
+│── results/ # Forecast plots and results
+│── requirements.txt # Dependencies
+│── README.md # Project description
 
+---
 
-## 📊 Usage
-```bash
-jupyter notebook notebooks/forecasting.ipynb
-```
+## 🗂 Example Data (Head)
 
-Run the Jupyter notebook for training and evaluation:
+| Date       | Close    | High     | Low      | Open     | Volume |
+|------------|---------|---------|---------|---------|--------|
+| 2015-01-02 | 8395.45 | 8410.60 | 8288.70 | 8288.70 | 101900 |
+| 2015-01-05 | 8378.40 | 8445.60 | 8363.90 | 8407.95 | 118200 |
+| 2015-01-06 | 8127.35 | 8327.85 | 8111.35 | 8325.29 | 172800 |
 
+---
+
+## 🧑‍💻 Models Used
+- **ARIMA** (AutoRegressive Integrated Moving Average)  
+- **LSTM** (Long Short-Term Memory neural network)
+
+---
 
 ## 📈 Results
 
-Example visualization of predictions vs actual values:
+### 🔹 ARIMA Forecast
+![ARIMA Results](results/arima_plot.png)
 
-## 🔮 Future Work
 
-Hyperparameter tuning for ARIMA and LSTM
 
-Add models like Prophet / Transformers
+### 🔹 Combined Comparison
+![Forecast Comparison](results/forecast_plot.png)
 
-Deploy as a web app for real-time predictions
 ---
+
+## ⚙️ Installation
+
+Clone this repository:
+```bash
+git clone https://github.com/YOUR-USERNAME/time-series-forecasting.git
+cd time-series-forecasting
+
 ## 🙋 Author
 KUSH MISHRA  
 Connect on GitHub: [m2kush](www.github.com/m2kush)
