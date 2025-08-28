@@ -38,7 +38,7 @@ time-series-forecasting/
 │── README.md            # Documentation
 
 
-##📊 Usage
+## 📊 Usage
 
 Run the Jupyter notebook for training and evaluation:
 
