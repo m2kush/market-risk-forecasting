@@ -26,7 +26,7 @@ git clone https://github.com/YOUR_USERNAME/time-series-forecasting.git
 cd time-series-forecasting
 pip install -r requirements.txt
 '''
-Project structure 
+## Project structure 
 time-series-forecasting/
 │── data/                # (optional) dataset or sample CSV
 │── notebooks/           # Jupyter notebooks
@@ -34,4 +34,9 @@ time-series-forecasting/
 │── results/             # Plots, metrics
 │── requirements.txt     # Dependencies
 │── README.md            # Documentation
+
+
+##📊 Usage
+
+Run the Jupyter notebook for training and evaluation:
 
