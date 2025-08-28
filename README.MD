@@ -39,6 +39,9 @@ time-series-forecasting/
 
 
 ## 📊 Usage
+```bash
+jupyter notebook notebooks/forecasting.ipynb
+```
 
 Run the Jupyter notebook for training and evaluation:
 
