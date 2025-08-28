@@ -40,7 +40,7 @@ time-series-forecasting/
 
 
 ### 🔹 Combined Comparison
-![Forecast Comparison](results/forecast_plot.png)
+![Forecast Comparison](rhttps://github.com/m2kush/market-risk-forecasting/blob/main/results/Screenshot%20from%202025-08-28%2009-29-59.png)
 
 ---
 
@@ -48,7 +48,7 @@ time-series-forecasting/
 
 Clone this repository:
 ```bash
-git clone https://github.com/YOUR-USERNAME/time-series-forecasting.git
+git clone https://github.com/m2kush/time-series-forecasting.git
 cd time-series-forecasting
 
 ## 🙋 Author
