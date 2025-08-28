@@ -57,4 +57,8 @@ Hyperparameter tuning for ARIMA and LSTM
 Add models like Prophet / Transformers
 
 Deploy as a web app for real-time predictions
+---
+## 🙋 Author
+KUSH MISHRA  
+Connect on GitHub: [m2kush](www.github.com/m2kush)
 
